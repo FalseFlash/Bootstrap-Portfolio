@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ray McCann</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="container-fluid">
+        <div class="container">
+            <nav class="nav nav-inline float-md-right">
+                <a class="nav-link" href="index.html">About Me</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link active" href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="cover">
+        <div class="container">
+            <div class="cover-social">
+                <div class="row">
+                    <div class="col-xs-12 text-xs-center">
+                        <div style="font-size: 50px;">CONTACT ME</div>
+                        <div class="offset-md-3 col-md-6">
+                             <form class="text-md-left" id="contactForm">
+                                 <div class="form-group">
+                                     <label for="formName">Your Name</label>
+                                     <input type="email" class="form-control" id="formName" aria-describedby="name" placeholder="Enter name">
+                                 </div>
+                                 <div class="form-group">
+                                     <label for="formEmail">Email Address</label>
+                                     <input type="email" class="form-control" id="formEmail" aria-describedby="email" placeholder="Enter email">
+                                     <small id="email" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                 </div>
+                                 <div class="form-group">
+                                     <label for="formReason">Reason For Contact</label>
+                                     <select class="form-control" id="formReason">
+                                         <option>Question / Comment</option>
+                                         <option>Job Inquiry</option>
+                                         <option>Software Licensing</option>
+                                         <option>Other Reason</option>
+                                     </select>
+                                 </div>
+                                 <div class="form-group">
+                                     <label for="formText">Your Question / Comment</label>
+                                     <textarea class="form-control" id="formText" rows="5"></textarea>
+                                 </div>
+                                 <div class="form-group">
+                                     <button type="submit" class="btn btn-primary">Send Message</button>
+                                 </div>
+                             </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="text-md-center">
+    &copy; Copyright 2016 Ray McCann.
+    <script data-main="assets/js/main" src="assets/js/require.js"></script>
+</footer>
+</body>
+</html>

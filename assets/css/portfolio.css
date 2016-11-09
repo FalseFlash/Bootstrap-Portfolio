@@ -1,0 +1,23 @@
+.panel-image img.panel-image-preview {
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.card-header ~ .panel-image img.panel-image-preview {
+    border-radius: 0px;
+}
+
+.panel-image ~ .card-block, .panel-image.hide-panel-body ~ .panel-body {
+    overflow: hidden;
+}
+
+.panel-image ~ .card-footer a {
+    padding: 0px 10px;
+    font-size: 1.3em;
+    color: rgb(100, 100, 100) !important;
+}
+
+.panel-image.hide-panel-body ~ .card-block {
+    height: 0px;
+    padding: 0px;
+}
